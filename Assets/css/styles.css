@@ -113,10 +113,13 @@ main section {
 }
 /* Release */
 #release {
-  background-color: #f4c4c4;
+  background: #f4c4c4 url(../img/letswork.svg) no-repeat right 2% bottom 6% /
+    contain;
   color: #282b29;
   font-size: 0.9rem;
   line-height: 2rem;
+  background-size: 8%;
+  padding-bottom: 20%;
 }
 
 #release div {
