@@ -1,0 +1,210 @@
+/* Fonts @font-face */
+@font-face {
+  font-family: opensans;
+  src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: athene;
+  src: url(../fonts/athene/Athene.otf);
+}
+
+/* Reset margin, padding, links*/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  font-family: opensans;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+li a {
+  list-style: none;
+  color: #458f8a;
+}
+/* Headings */
+
+h1,
+h2,
+h3 {
+  font-family: athene;
+}
+
+h1,
+h2 {
+  font-size: 9rem;
+  font-weight: lighter;
+}
+h2 {
+  line-height: 10rem;
+  padding-top: 5%;
+}
+h3 {
+  font-size: 3.5rem;
+}
+.underline {
+  width: 82%;
+  border-bottom: 1px solid #002a5a;
+  display: inline-block;
+}
+#bold {
+  font-family: athene;
+}
+/* Linebreak */
+.break:before {
+  content: "\A";
+  white-space: pre;
+}
+/* Linebefore */
+
+#linebefore:before {
+  content: "\2014";
+}
+/* Header */
+header {
+  background-color: #efe8d7;
+  color: #002a5a;
+  padding: 9% 0 5% 0;
+}
+#prehead {
+  border-bottom: #002a5a 1px solid;
+  padding: 1% 10%;
+  font-size: 0.9rem;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#prehead-left {
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+}
+#prehead-right {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+}
+header section {
+  text-align: center;
+}
+header section div {
+  margin: 5% auto;
+  margin-bottom: 0;
+  width: 334px;
+  text-align: left;
+}
+
+/* Main */
+main section {
+  padding: 5% 0;
+}
+.lefti,
+.righti {
+  font-size: 0.8rem;
+  font-style: normal;
+}
+.lefti {
+  margin-left: 10%;
+}
+.righti {
+  margin-right: 10%;
+}
+/* Release */
+#release {
+  background-color: #f4c4c4;
+  color: #282b29;
+  font-size: 0.9rem;
+  line-height: 2rem;
+}
+
+#release div {
+  padding-right: 5vw;
+  margin-left: 60vw;
+}
+
+#release div p,
+#works div p {
+  padding: 0 0 10% 10%;
+}
+
+caption {
+  text-align: right;
+  border-bottom: 1px solid;
+}
+th,
+td {
+  border-bottom: 1px solid;
+  padding: 36px 0;
+}
+th {
+  font-size: 0.7rem;
+  padding-right: 18px;
+}
+tr td:nth-child(3) {
+  font-size: 0.7rem;
+  text-align: right;
+  padding-left: 288px;
+  line-height: 0.8rem;
+}
+/* Works */
+
+#works {
+  background-color: #deb873;
+  text-align: right;
+  color: #7d2322;
+}
+
+#works div {
+  padding-left: 5vw;
+  margin-right: 60vw;
+  text-align: left;
+}
+
+#works div p {
+  line-height: 2rem;
+  font-size: 0.9rem;
+}
+article {
+  height: 50vh;
+
+  margin: 5% 15vw 10% 10vw;
+}
+article:nth-of-type(odd) {
+  text-align: left;
+}
+article:nth-of-type(even) {
+  text-align: right;
+}
+article:last-of-type {
+  margin-bottom: 0;
+}
+#rodrigo {
+  background: url(../img/bg-marconatto-1.jpg) no-repeat right/contain;
+}
+#kaethe {
+  background: url(../img/kathe_cover-1.jpg) no-repeat left/contain;
+}
+#victor {
+  background: url(../img/bg-nicole-1.jpg) no-repeat right/contain;
+}
+#bored {
+  background: url(../img/boa_cover-1.jpg) no-repeat left/contain;
+}
+#contact {
+  background-color: #d2d2d2;
+  color: #458f8a;
+}
+#conclusion {
+  line-height: 2rem;
+  width: 22%;
+
+  padding: 1% 0 5% 28%;
+}
+ul {
+  text-align: right;
+  line-height: 2rem;
+  padding-right: 5%;
+}
+/* #002a5a, #efe8d7, #F4C4C4, #282b29, #7d2222, #DEB873, #D2D2D2, #1d8883 */
